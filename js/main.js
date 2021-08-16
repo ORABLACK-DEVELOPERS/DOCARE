@@ -262,3 +262,8 @@ function loadPage(){
     alert('Warning: If the doctor is for demo purpose. (Demo) will be marked next to the doctor name ');
   });
 }
+function formSub(){
+  $(document).ready(function(){
+alert('Your Appoinment Request Form has been submitted successfully.The Doctor will reply soon');
+});
+}

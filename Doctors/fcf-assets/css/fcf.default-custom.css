@@ -1,0 +1,93 @@
+.fcf-form-wrap {
+    max-width: auto;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#fcf-form {
+    background-color: #ffffff;
+    color: #363636;
+}
+
+#fcf-thank-you {
+    color: #363636;
+}
+
+.fcf-label {
+    color: #000000;
+}
+
+.fcf-strong {
+    color: #363636;
+}
+
+.fcf-input, .fcf-textarea, .fcf-select select {
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+    color: #363636;
+}
+
+.fcf-input:focus, .fcf-textarea:focus, .fcf-select select:focus, .fcf-input:active, .fcf-textarea:active, .fcf-select select:active, .fcf-input:hover, .fcf-textarea:hover, .fcf-select select:hover {
+    border-color: #dbdbdb;
+    box-shadow: none;
+}
+
+.fcf-select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #606060;
+}
+
+.fcf-file-label:hover .fcf-file-cta {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.fcf-file-label:hover .fcf-file-name {
+    border-color: #dbdbdb;
+}
+
+.fcf-file-label:active .fcf-file-cta {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.fcf-file-label:active .fcf-file-name {
+    border-color: #cfcfcf;
+}
+
+.fcf-file-cta {
+    background-color: #606060;
+    border-color: #dbdbdb;
+    color: #ffffff;
+}
+
+.fcf-file-name {
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+}
+
+.fcf-button.is-link {
+    background-color: #606060;
+    color: #ffffff;
+}
+
+.fcf-button.is-link:hover {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.fcf-button.is-link[disabled] {
+    background-color: #303030;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.fcf-attribution {
+    color: #363636;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.fcf-attribution-link {
+    color: #363636;
+}

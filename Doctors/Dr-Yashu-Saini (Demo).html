@@ -18,41 +18,93 @@
   
     <!-- Template Main CSS File -->
     <link href="/css/style.css" rel="stylesheet">
+    <!--CSS Of Form-->
+    <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
+    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
+        
    
 </head>
-<body  id="bodyS">
-    <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="/index.html"><span>DOCARE</span></a></h1>
-         </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="/i">Home</a></li>
-          <li><a class="nav-link scrollto" href="/book.html">Book</a></li>
-          <li><a class="nav-link scrollto" href="/register.html">Register</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+<body  style="background-color: green;">
+   
   <main id="main">
     <h2>About</h2>
     <br>
-    <h3>Working in </h3>  Surya hospitals in Jaipur    
-    <h3>Qualification</h3> MD(Pediatrics), IPNA Fellowship (Pediatric Nephrology) AIIMS, New Delhi MTI (RCPCH) Fellowship (Pediatric Nephrology) Leeds Teaching Hospital, England, United Kingdom
-    <h3>Designation </h3> Consultant Pediatric Nephrologist
+    Working in   Surya hospitals in Jaipur  <br>
+    Qualification: MD(Pediatrics), IPNA Fellowship (Pediatric Nephrology) AIIMS, New Delhi MTI (RCPCH) Fellowship (Pediatric Nephrology) Leeds Teaching Hospital, England, United Kingdom
+       <br>
+    Designation: Consultant Pediatric Nephrologist
 
-    <h1>Book</h1>
     
+    </main>
+    <h1>Book Doctor </h1>
+    <h4>After booking the doctor will contact you through the email given below or by calling you phone number given below.</h4>
+    <!--Form-->
+    <form style="color: rgb(255, 255, 255);" action="https://api.web3forms.com/submit"  onsubmit="formSub()"  method="POST">
 
+        <input type="hidden" name="apikey" value="3106a425-2279-44c6-86e9-ec0ff3edb612">
+
+        <div class="fcf-field">
+            <label for="Name" class="fcf-label has-text-weight-normal">Your name</label>
+            <div class="fcf-control">
+                <input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
+                    data-validate-field="Name">
+            </div>
+        </div>
+        <div class="fcf-field">
+            <label for="Email" class="fcf-label has-text-weight-normal">Your email address</label>
+            <div class="fcf-control">
+                <input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
+                    data-validate-field="Email">
+            </div>
+        </div>
+        <div class="fcf-field">
+            <label for="Phone" class="fcf-label has-text-weight-normal">Your phone number</label>
+            <div class="fcf-control">
+                <input type="number" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
+                    data-validate-field="Phone">
+            </div>
+        </div>
+        <div class="fcf-field">
+            <label for="Time" class="fcf-label has-text-weight-normal">Time(AM)</label>
+            <div class="fcf-control">
+                <input type="number" name="Time" id="Time" class="fcf-input is-full-width" maxlength="100"
+                    data-validate-field="Time">
+            </div>
+        </div>
+        
+        <fieldset>
+            <legend>Select Platform for Consultant</legend>
+            
+            
+            <div class="inline">
+              <label>
+                <input type="radio" name="Platform" value="gmeet" checked>
+                Google Meet
+              </label>
+              <label>
+                <input type="radio" name="Platform" value="zoom">
+                Zoom Meet
+              </label>
+              <label>
+                  <input type="radio" name="Platform" value="whatsapp">
+                  Whatsapp Video call
+              </label>
+            </div>
+          </fieldset>
+        <div id="fcf-status" class="fcf-status"></div>
+
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        
+        <div class="fcf-field">
+            <div class="fcf-buttons">
+                <button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth">Book
+                    Doctor</button>
+            </div>
+        </div>
+      </form>
         
     
     
-  </main>
+
 </body>
 </html>
