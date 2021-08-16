@@ -17,36 +17,74 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   
     <!-- Template Main CSS File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
+    <!--Form CSS-->
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body id="bodyS">
-    <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>DOCARE</span></a></h1>
-         </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="/book.html">Book</a></li>
-          <li><a class="nav-link scrollto" href="/about.html">About</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
   <main id="main">
 
     <h1>Are you a Doctor, Register In our Portal to help Others </h1>
     <p>
         We use Google Meet, Zoom or whatsapp video call.
         When a user book you, you will get an Email with their details(Included Phone number also)
-        You can call them and send the meeting link
+        You can contact them and send the meeting link or video call.
     </p>
   </main>
+  <!--Form-->
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Which category do you belong</span>
+            <input type="text" placeholder="Category you belong to" required>
+          </div>
+        
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
 </body>
 </html>

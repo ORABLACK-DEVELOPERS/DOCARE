@@ -18,90 +18,71 @@
   
     <!-- Template Main CSS File -->
     <link href="/css/style.css" rel="stylesheet">
-    <!--CSS Of Form-->
-    <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
-    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
+   <!--Form CSS-->
+   <link rel="stylesheet" href="/css/form.css">
         
    
 </head>
 <body  style="background-color: green;">
    
-  <main id="main">
-    <h2>About</h2>
-    <br>
-    Working in   Surya hospitals in Jaipur  <br>
-    Qualification: MD(Pediatrics), IPNA Fellowship (Pediatric Nephrology) AIIMS, New Delhi MTI (RCPCH) Fellowship (Pediatric Nephrology) Leeds Teaching Hospital, England, United Kingdom
-       <br>
-    Designation: Consultant Pediatric Nephrologist
-
-    
-    </main>
-    <h1>Book Doctor </h1>
-    <h4>After booking the doctor will contact you through the email given below or by calling you phone number given below.</h4>
+  
     <!--Form-->
-    <form style="color: rgb(255, 255, 255);" action="https://api.web3forms.com/submit"  onsubmit="formSub()"  method="POST">
+    <div class="container">
+        <div class="title">Book Doctor</div>
+        <div class="content">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-        <input type="hidden" name="apikey" value="3106a425-2279-44c6-86e9-ec0ff3edb612">
+                <input type="hidden" name="apikey" value="3106a425-2279-44c6-86e9-ec0ff3edb612">
 
-        <div class="fcf-field">
-            <label for="Name" class="fcf-label has-text-weight-normal">Your name</label>
-            <div class="fcf-control">
-                <input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
-                    data-validate-field="Name">
-            </div>
-        </div>
-        <div class="fcf-field">
-            <label for="Email" class="fcf-label has-text-weight-normal">Your email address</label>
-            <div class="fcf-control">
-                <input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
-                    data-validate-field="Email">
-            </div>
-        </div>
-        <div class="fcf-field">
-            <label for="Phone" class="fcf-label has-text-weight-normal">Your phone number</label>
-            <div class="fcf-control">
-                <input type="number" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
-                    data-validate-field="Phone">
-            </div>
-        </div>
-        <div class="fcf-field">
-            <label for="Time" class="fcf-label has-text-weight-normal">Time(AM)</label>
-            <div class="fcf-control">
-                <input type="number" name="Time" id="Time" class="fcf-input is-full-width" maxlength="100"
-                    data-validate-field="Time">
-            </div>
-        </div>
-        
-        <fieldset>
-            <legend>Select Platform for Consultant</legend>
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input  name="Name" type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input name="Email" type="email" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input name="Phone Number" type="number" placeholder="Enter your phone  number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Time</span>
+                <input name="Time" type="text" placeholder="Enter Time" required>
+              </div>
             
+            </div>
+            <div class="platform-details">
+              <input type="radio" name="gmeet" id="dot-1">
+              <input type="radio" name="zoom" id="dot-2">
+              <input type="radio" name="whatsapp" id="dot-3">
+              <span class="gender-title">Select a platform for consultant</span>
+              <div class="category">
+                <label  for="dot-1">
+                <span class="dot one"></span>
+                <span class="gmeet">Google Meet</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="zoom">Zoom Meet</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="whatsapp">Whatsapp Video Call</span>
+                </label>
+              </div>
+              <p>After booking the doctor will contact you through the email given  or by calling you phone number given .</p>
+            </div>
+    
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
             
-            <div class="inline">
-              <label>
-                <input type="radio" name="Platform" value="gmeet" checked>
-                Google Meet
-              </label>
-              <label>
-                <input type="radio" name="Platform" value="zoom">
-                Zoom Meet
-              </label>
-              <label>
-                  <input type="radio" name="Platform" value="whatsapp">
-                  Whatsapp Video call
-              </label>
+            <div class="button">
+              <input type="submit" value="Book Doctor">
             </div>
-          </fieldset>
-        <div id="fcf-status" class="fcf-status"></div>
-
-        <input type="hidden" name="redirect" value="https://web3forms.com/success">
-        
-        <div class="fcf-field">
-            <div class="fcf-buttons">
-                <button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth">Book
-                    Doctor</button>
-            </div>
+          </form>
         </div>
-      </form>
+      </div>
         
     
     

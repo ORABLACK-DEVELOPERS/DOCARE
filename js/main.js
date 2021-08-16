@@ -250,13 +250,13 @@
 })()
 function loadPage(){
   $(document).ready(function(){
-    alert('Warning: Pls read the dialog boxes carefully (Dialog boxes will appear after this dialog box)');
+    alert('Warning: Pls read the dialog boxes carefully,if you already read then pls ignore this (Dialog boxes will appear after this dialog box)');
   });
   $(document).ready(function(){
-    alert('Disclaimer: The Booking and Doctors are Demo! If you are a Doctor please register ');
+    alert('Disclaimer: The Booking and Doctors are Demo! If you are a Doctor please register to bring DOCARE truly working ');
   });
   $(document).ready(function(){
-    alert('Warning: The booking details that you entered will go to our email ');
+    alert('Warning: If the doctor is demo,the booking details that you entered will go to our email ');
   });
   $(document).ready(function(){
     alert('Warning: If the doctor is for demo purpose. (Demo) will be marked next to the doctor name ');
