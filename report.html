@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Doctor</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="join/join.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Report Doctor</div>
+    <div class="content">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="apikey" value="3106a425-2279-44c6-86e9-ec0ff3edb612">
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name of Doctor</span>
+            <input name="Dr.Name" type="text" placeholder="Enter name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input name="Email" type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone number</span>
+            <input name="Phone Number" type="number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Reason for Report</span>
+            <input name="Report Reason" type="text" placeholder="Reason" required>
+          </div>
+         
+          
+        </div>
+         <p>
+             After submission,we will email you for furthur details.If you report unnecessary,we may take action on you!!!
+        </p>
+
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        <div class="button" >
+          <input name="Report" type="submit" value="Report">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
