@@ -24,10 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 #   Main Tag
 --------------------------------------------------------------*/
 #main {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 200px;
   margin-left: 50px;
 }
+
 
 /*--------------------------------------------------------------
 #   Body Colour (register,book,about)

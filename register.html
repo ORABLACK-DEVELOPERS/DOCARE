@@ -25,66 +25,52 @@
 
   <main id="main">
 
-    <h1>Are you a Doctor, Register In our Portal to help Others </h1>
-    <p>
+    <h1 style="color: black;">Are you a Doctor, Register In our Portal to help Others </h1>
+    <p style="color: black;">
         We use Google Meet, Zoom or whatsapp video call.
         When a user book you, you will get an Email with their details(Included Phone number also)
         You can contact them and send the meeting link or video call.
     </p>
   </main>
   <!--Form-->
-  <div class="container">
-    <div class="title">Registration</div>
-    <div class="content">
+   
+   <div class="container">
+    <div class="title">Register</div>
+     <div class="content">
         <form action="https://api.web3forms.com/submit" method="POST">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
-          </div>
-          <div class="input-box">
+
+            <input type="hidden" name="apikey" value="3106a425-2279-44c6-86e9-ec0ff3edb612">
+
+         <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input  name="Name" type="text" placeholder="Enter your name" required>
+            </div>
+           <div class="input-box">
+             <span class="details">Email</span>
+            <input name="Email" type="email" placeholder="Enter your email" required>
+           </div>
+           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
-          </div>
-          <div class="input-box">
+            <input name="Phone Number" type="number" placeholder="Enter your phone  number" required>
+           </div>
+          
+
+           <div class="input-box">
             <span class="details">Which category do you belong</span>
-            <input type="text" placeholder="Category you belong to" required>
+            <input name="Platform" type="text" placeholder="Category you belong to"required>
+           </div>
+          
           </div>
         
-        </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
-          </div>
+          <p>After Registeration, the team will contact you through Email/SMS/Whatsapp    (Probably will email you,if you didnt reply,we will use other methods).</p>
         </div>
 
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-        <div class="button">
-          <input type="submit" value="Register">
-        </div>
+        
+        <button type="submit" value="Book Doctor" class="btn btn-success">Book Doctor</button>
       </form>
     </div>
   </div>
-
 </body>
 </html>
