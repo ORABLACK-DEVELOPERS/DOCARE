@@ -12,12 +12,12 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-image: linear-gradient(to top , rgb(94, 255, 0) , rgb(0, 0, 0)) ; 
 }
 .container{
   max-width: 700px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
@@ -35,7 +35,7 @@ body{
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-image: linear-gradient( rgb(94, 255, 0) , rgb(0, 0, 0)) ; 
 }
 .content form .user-details{
   display: flex;
@@ -59,15 +59,15 @@ form .input-box span.details{
   font-size: 16px;
   border-radius: 5px;
   padding-left: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(13, 197, 37);
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-  border-color: #9b59b6;
+  border-color: #48ff00;
 }
- form .gender-details .gender-title{
+ form .platform-details .platform-title{
   font-size: 20px;
   font-weight: 500;
  }
@@ -91,12 +91,7 @@ form .input-box span.details{
   border: 5px solid transparent;
   transition: all 0.3s ease;
 }
- #dot-1:checked ~ .category label .one,
- #dot-2:checked ~ .category label .two,
- #dot-3:checked ~ .category label .three{
-   background: #9b59b6;
-   border-color: #d9d9d9;
- }
+ 
  form input[type="radio"]{
    display: none;
  }
