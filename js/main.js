@@ -248,6 +248,7 @@
   });
 
 })()
+/*
 function loadPage(){
   $(document).ready(function(){
     alert('Warning: Pls read the dialog boxes carefully,if you already read then pls ignore this (Dialog boxes will appear after this dialog box)');
@@ -262,3 +263,4 @@ function loadPage(){
     alert('Warning: If the doctor is for demo purpose. (Demo) will be marked next to the doctor name ');
   });
 }
+*/
