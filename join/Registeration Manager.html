@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Registration Manager</div>
+    <div class="content">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="apikey" value="c87af4d2-1d10-42fc-bb2d-43bcb87e2a2b">
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input name="Name" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input name="Email" type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone number</span>
+            <input name="Phone Number" type="number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Do you have Telegram</span>
+            <input name="Have Telegram ?" type="text" placeholder="Yes/No" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Discord Username</span>
+            <input name="Discord Username" type="text" placeholder="Discord Username" >
+          </div>
+
+          <div class="input-box">
+            <span class="details">Gender</span>
+            <input name="Gender" type="text" placeholder="Male/Female/Prefer not to say" required>
+          </div>
+          
+        </div>
+         <p>
+             After submission,we will email you for furthur details.Telegram is for communication between team and the workers,if you dont have 
+             Telegram,enter Discord username.If you dont have both,dont worry We will find a solution(Whatsapp group)
+        </p>
+
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        <div class="button">
+          <input type="submit" value="Apply">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
