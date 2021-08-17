@@ -417,9 +417,14 @@ h1, h2, h3, h4, h5, h6 {
 #About
 --------------------------------------------------------------*/
 #about{
-  color: black;
+  font-family: 'Georama', sans-serif;
+  color: rgb(0, 0, 0);
   padding-top: 2%;
   padding-left: 3%;
+}
+#about-me{
+  display: flex;
+  flex-wrap: wrap;
 }
 /*--------------------------------------------------------------
 #Join
