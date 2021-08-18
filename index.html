@@ -28,8 +28,8 @@
 
 </head>
 
-<body onload="loadPage()" style="background-color: #121212;" >
-
+<body style="background-color: #121212;" >
+ <div onload="loadPage()">
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
@@ -76,6 +76,23 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 
+  <script>
+    function loadPage(){
+  $(document).ready(function(){
+    alert('Warning: Pls read the dialog boxes carefully,if you already read then pls ignore this (Dialog boxes will appear after this dialog box)');
+  });
+  $(document).ready(function(){
+    alert('Disclaimer: The Booking and Doctors are Demo! If you are a Doctor please register to bring DOCARE truly working ');
+  });
+  $(document).ready(function(){
+    alert('Warning: If the doctor is demo,the booking details that you entered will go to our email ');
+  });
+  $(document).ready(function(){
+    alert('Warning: If the doctor is for demo purpose. (Demo) will be marked next to the doctor name ');
+  });
+}
+  </script>
+</div>
 </body>
 
 </html>   
