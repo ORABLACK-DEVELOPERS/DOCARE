@@ -7,9 +7,28 @@ In this situation see doctor online for small cases.Read Full article or this fi
 ### Pronounciation
 'Doc' 'Care'
 
+### Genereal
+
+-Easy Service
+
 ## Features For Patients
 
 - Book Doctor through form
 - If any problem with Doctor,Report doctor
 - Using Google Meet, Zoom & Whatsapp for consultant
 - For queries,Discord and Telegram
+
+
+### Features for Doctor
+
+- Easy registration, our team will you setup everything and will give you a training
+- Forms will be received to you by email
+
+
+### Website
+
+https://docare.netlify.app
+
+### Author
+
+@MohammedRoshanT
