@@ -33,4 +33,4 @@ https://docare.netlify.app
 
 ### Author
 
-<a href="https://github.com/MohammedRoshanT">@MohammedRoshanT</a
+<a href="https://github.com/MohammedRoshanT">@MohammedRoshanT</a>
