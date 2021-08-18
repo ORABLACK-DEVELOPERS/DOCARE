@@ -37,4 +37,4 @@ https://docare.netlify.app
 
 <a href="https://github.com/MohammedRoshanT">@MohammedRoshanT</a>
 
-Made for an HACKATHON conducted by <a href="https://github.com/techsias">TECHSIAS</>
+Made for an HACKATHON conducted by <a href="https://github.com/techsias">TECHSIAS</a>
