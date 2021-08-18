@@ -10,7 +10,9 @@ In this situation see doctor online for small cases.Read Full article or this fi
 ### Genereal
 
 -Easy Service
+
 -We dont buy fees for service,it is free
+
 -Doctors will only buy fees
 
 ## Features For Patients
