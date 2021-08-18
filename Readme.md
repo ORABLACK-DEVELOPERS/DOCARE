@@ -1,6 +1,6 @@
 # DOCARE
 
-DOCARE Is an web app stand as a  Intermediary between doctor and the patient.
+DOCARE Is an web app stand as a  Intermediary between doctor and the patient and a online consultant system
 
 In this situation see doctor online for small cases.Read Full article or this file completely so that you can understand what is DOCARE.
 
