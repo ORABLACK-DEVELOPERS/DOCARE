@@ -1,21 +1,21 @@
 # DOCARE
 
-DOCARE Is an web app stand as a  Intermediary between doctor and the patient and a online consultant system
+DOCARE Is a online consultant system stand as a Intermediary between doctor and the patient and 
 
-In this situation see doctor online for small cases.Read Full article or this file completely so that you can understand what is DOCARE.
+In this situation, we can't consult doctor offline for small cases,we introduce DOCARE To  see doctor online for small cases.Read Full article or this file completely so that you can understand what is DOCARE.
 
 ### Pronounciation
 'Doc' 'Care'
 
-### Genereal
+### Genereal Features
 
--Easy Service
+- Easy Service
 
--We dont buy fees for service,it is free
+- We dont buy fees for service,it is free
 
--Doctors will only buy fees
+- Doctors will only buy fees
 
-## Features For Patients
+### Features For Patients
 
 - Book Doctor through form
 - If any problem with Doctor,Report doctor
@@ -29,12 +29,18 @@ In this situation see doctor online for small cases.Read Full article or this fi
 - Forms will be received to you by email
 
 
-### Website
+### Links
 
-https://docare.netlify.app
+Portal   : https://docare.netlify.app
+ 
+Discord  : https://discord.gg/K9E2yQSMBC
 
+Telegram : https://t.me/obdevs
+
+NB: Telegram link given above is for for announcements,there is a pinned message the exact link of the channel you can chat!
 ### Author
 
+A product under ORABLACK Developers by 
 <a href="https://github.com/MohammedRoshanT">@MohammedRoshanT</a>
 
 Made for an HACKATHON conducted by <a href="https://github.com/techsias">TECHSIAS</a>
