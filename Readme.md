@@ -20,7 +20,7 @@ In this situation, we can't consult doctor offline for small cases,we introduce 
 - Book Doctor through form
 - If any problem with Doctor,Report doctor
 - Using Google Meet, Zoom & Whatsapp for consultant
-- For queries,Discord and Telegram
+- For queries,Discord, Whatsapp & Telegram
 
 
 ### Features for Doctor
@@ -35,8 +35,7 @@ Portal   : https://docare.netlify.app
  
 Discord  : https://discord.gg/K9E2yQSMBC
 
-Telegram : https://t.me/obdevs
-
+Telegram : https://t.me/
 NB: Telegram link given above is for for announcements,there is a pinned message the exact link of the channel you can chat!
 ### Author
 
